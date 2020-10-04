@@ -21,12 +21,12 @@ dependencies:
   - keras-applications=1.0.8
   - keras-base=2.3.1
   - keras-preprocessing=1.1.0
-  - libcxx=10.0.0
+#  - libcxx=10.0.0
   - libedit=3.1.20191231
   - libffi=3.3
-  - libgfortran=3.0.1
+#  - libgfortran=3.0.1
   - libprotobuf=3.13.0
-  - llvm-openmp=10.0.0
+#  - llvm-openmp=10.0.0
   - markdown=3.2.2
   - mkl=2019.4
   - mkl-service=2.3.0
