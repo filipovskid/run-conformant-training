@@ -20,8 +20,8 @@ def drboson_callback(drboson, logs, step):
     }, step=step)
 
 
-def train_example(drboson, data_dir):
-    dataset = pd.read_csv(data_dir.joinpath('train.csv'))
+def train_example(drboson, dataset_location):
+    dataset = pd.read_csv(dataset_location)
     X = dataset.iloc[:, :20].values
     y = dataset.iloc[:, 20:21].values
 
